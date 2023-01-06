@@ -1,0 +1,4 @@
+include LICENSE
+include README.md
+recursive-include ethiopian_datetime/static *
+recursive-include ethiopian_datetime/templates *

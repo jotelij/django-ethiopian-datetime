@@ -1,0 +1,9 @@
+*.pyc
+/.idea/
+/.vscode/
+/dist/
+/build/
+/django_ethiopian_date.egg-info/
+
+.pypirc
+venv

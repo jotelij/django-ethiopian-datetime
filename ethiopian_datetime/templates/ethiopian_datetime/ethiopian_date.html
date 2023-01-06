@@ -1,0 +1,8 @@
+{% load ethiopian_datetime_tags %}
+
+<input 
+    type="{{ widget.type }}" 
+    name="{{ widget.name }}"
+    autocomplete="off"
+    {% if widget.value != None %} value="{{ widget.value | ethiopian_date }}" {% endif %}
+    {% include "django/forms/widgets/attrs.html" %} />

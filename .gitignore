@@ -4,6 +4,7 @@
 /dist/
 /build/
 /django_ethiopian_date.egg-info/
+/django_ethiopian_datetime.egg-info/
 
 .pypirc
 venv
